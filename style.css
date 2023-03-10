@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    padding: 20px 3rem;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 8rem;
+    height: 40px;
+}
+
+.nav-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-2{
+    display: flex;
+    justify-content: space-between;
+}
