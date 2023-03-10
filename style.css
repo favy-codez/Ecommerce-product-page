@@ -7,7 +7,7 @@
 
 header{
     display: flex;
-    padding: 2rem 4rem 1rem 4rem;
+    padding: 2rem 3rem 1rem 3rem;
     justify-content: space-between;
 }
 
@@ -23,20 +23,21 @@ hr{
 .nav-1{
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .text {
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 3rem;
     color: hsl(0, 0%, 75%);
 }
 
 .nav-2{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     justify-content: space-between;
+    margin: 0 1rem 0 0;
 }
 
 #cart-icon{
@@ -51,3 +52,29 @@ hr{
 }
 
 /* section 2 */
+main{
+    margin: 6rem 5rem  4rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+#pic1{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.sec-1-b{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0 0 0;
+}
+
+#product-1{
+    width: 90px;
+    border-radius: 4px;
+}
+
+.sec-2{
+    
+}
