@@ -139,6 +139,17 @@ span{
 
 .sign-sec{
     display: flex;
+    gap: 12px;
+}
+
+.sign1, .sign2, .sign3{
+    background-color: #f7f8fd;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.sign1, .sign3{
+    color: hsl(26, 100%, 55%);
 }
 
 .button{
@@ -146,8 +157,19 @@ span{
     gap: 1rem;
     background-color: hsl(26, 100%, 55%);
     color: #fff;
+    padding: 12px 50px;
+    border-radius: 5px;
+}
+
+.button p{
+    font-size: 13px;
+    font-weight: 200;
 }
 
 .button img{
     color: #fff;
+}
+
+.ri-shopping-cart-2-line{
+    /* font-size: 13px; */
 }
